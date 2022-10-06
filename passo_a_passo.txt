@@ -27,3 +27,5 @@ git config --global user.email "o teu email"
 
 git remote add apelido_da_url adicionar_a_url ---> git remote add upstream https://github.com/gittech01/estudo_git_remoto.git
 
+
+
