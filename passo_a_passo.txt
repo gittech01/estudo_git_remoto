@@ -1,0 +1,29 @@
+mkdir nome_do_diretorio ---> mkdir estudo_git
+cd nome_do_diretorio    ---> cd estudo_git
+
+... criar os arquivos necessario para o seu programa.
+
+touch nome_do_arquivo [outro_aqruivo] ---> touch index.html
+
+git status (porem não necessario quando já souber)
+
+git add nome_do_arquivo  ---> git add arquivo_1.js
+
+att.: se tivermos mais de um arquivo vc pode simplificar usando o . ou * para
+designar que todos os arquivos serão trackeados.
+
+git commit -m "mensagem" ---> git commit -m "criei os arquivos"
+
+--------------------------------------------------------------
+
+Antes de fazer o commite, voce fazer a configuracao de usuario. Segue os passos
+abaixo: 
+
+git config --global user.name "o teu nome"
+
+git config --global user.email "o teu email"
+
+--------------------------------------------------------------
+
+git remote add apelido_da_url adicionar_a_url ---> git remote add upstream https://github.com/gittech01/estudo_git_remoto.git
+
